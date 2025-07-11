@@ -314,7 +314,7 @@ void Widgets::MultiPlot::calculateAutoScaleRange()
       else
       {
         double rngValue = m_maxY - m_minY;
-        m_minY = m_minY - rngValue * 0.05
+        m_minY = m_minY - rngValue * 0.05;
         m_maxY = m_maxY + rngValue * 0.05;
       }
     }
